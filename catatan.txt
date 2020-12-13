@@ -1,0 +1,55 @@
+MERN FULL STACK (freeCodeCamp.org)
+
+Node.js = javascript run-time environment that executes Javascript code outside of browser(such as server)
+express = web application for node.js , mempermudah pembuatan webs erver
+mongodb = document-based open source database, tempat penyimpnan data
+reactjs = a javascript front-end library for building user interfaces
+
+mongoose = simple, schema-based solution to model application data. mempermudah memakai mongodb dan nodejs
+
+Menit 2.28 konsep mongodb
+mongodb cocok untuk bigdata
+
+Menit 4.00 mongodb documents -BSON Types
+
+Menit 10.00 mongodb ObjectId
+
+Menit 12.57 npm i express cors mongoose dotenv
+express 	= framework untuk nodejs
+cors 		= untuk same origin policy, 
+mongoose 	= untuk interaksi ke mongo
+dotenv		= load dati ENV file
+
+npm i nodemon
+
+Menit 15.14 membuat server
+
+Menit 15.40 body parser tidak perlu lagi di new versi express
+app.use(express.json());
+
+Menit 17.20 Mongoose untuk konek mongodb database
+
+MongoDB Atlas
+user		: FajarUser
+password	: aROz1NH4eiQtqBxu
+
+
+masukan database di .env
+
+Menit 27.00
+find() menghasilkan promise sehingga perlu then
+
+routes/exercise.js ==> konvert ke Number dan Date
+
+Menit 37.00
+CRUD di routes/exercises.js
+
+Menit 43.36
+Masuk react
+React = declrative,efficient and flexbile javascript library untuk membuat UI
+
+menit 51.20
+npm install react-bootstrap bootstrap
+npm install react-router-dom
+
+BARU 1.00.00
